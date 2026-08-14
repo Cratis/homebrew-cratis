@@ -1,26 +1,26 @@
 class Cratis < Formula
   desc "Command-line tool for managing and exploring Chronicle event stores"
   homepage "https://github.com/Cratis/cli"
-  version "2.6.2"
+  version "2.7.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/Cratis/cli/releases/download/v2.6.2/cratis-2.6.2-osx-arm64.tar.gz"
-      sha256 "bd0d7ea96f0085cda7481b64ee3d4036687b210996450d51e3ed8ba1d1021e29"
+      url "https://github.com/Cratis/cli/releases/download/v2.7.0/cratis-2.7.0-osx-arm64.tar.gz"
+      sha256 "27cddb8cbb1219bff2e1e7a7a0b4f031a31a63686d8d97f240215f33dca9ca46"
     end
     on_intel do
-      url "https://github.com/Cratis/cli/releases/download/v2.6.2/cratis-2.6.2-osx-x64.tar.gz"
-      sha256 "31e59f9144df63ec40b9ece701b2e8fff8597edf7a9b2b8be8630e74b3f76af8"
+      url "https://github.com/Cratis/cli/releases/download/v2.7.0/cratis-2.7.0-osx-x64.tar.gz"
+      sha256 "d9e6c7012fee9990e0ac30324d80a276939fec889068837036e2b23c449cb00e"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/Cratis/cli/releases/download/v2.6.2/cratis-2.6.2-linux-arm64.tar.gz"
-      sha256 "4433c535f788f823110b30cad7b7ebf5e3d512f570eb893d5413c0dd79b5030e"
+      url "https://github.com/Cratis/cli/releases/download/v2.7.0/cratis-2.7.0-linux-arm64.tar.gz"
+      sha256 "1a1e2d657096ce07bacf4a6a07809f269b2480a3e5140bd6dc9d1c5d288f2060"
     end
     on_intel do
-      url "https://github.com/Cratis/cli/releases/download/v2.6.2/cratis-2.6.2-linux-x64.tar.gz"
-      sha256 "474f1ce5d724e86345bf06e50981ba0dc317ac05b3add924a29ce5fba8402b95"
+      url "https://github.com/Cratis/cli/releases/download/v2.7.0/cratis-2.7.0-linux-x64.tar.gz"
+      sha256 "d9568a0e01d98dc6e8003f01762af89175e9d2cd003857feea2daa803b229ad3"
     end
   end
 
