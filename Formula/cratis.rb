@@ -1,26 +1,26 @@
 class Cratis < Formula
   desc "CLI for inspecting and diagnosing Chronicle event-sourcing stores"
   homepage "https://github.com/Cratis/cli"
-  version "3.106.0"
+  version "3.107.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/Cratis/cli/releases/download/v3.106.0/cratis-3.106.0-osx-arm64.tar.gz"
-      sha256 "d1fdc30a5295772ed805e3886815833030031d0be49ad036383ac61858312e0a"
+      url "https://github.com/Cratis/cli/releases/download/v3.107.0/cratis-3.107.0-osx-arm64.tar.gz"
+      sha256 "dfb8f6c39e8cc1cbcaf78f95b426f4d1e7dba9a180ae7b674c499638ce7273aa"
     end
     on_intel do
-      url "https://github.com/Cratis/cli/releases/download/v3.106.0/cratis-3.106.0-osx-x64.tar.gz"
-      sha256 "6d6c9c6482d57457b748f35bb443a538b85405a520025cd7a0b9dbcef43e7e9f"
+      url "https://github.com/Cratis/cli/releases/download/v3.107.0/cratis-3.107.0-osx-x64.tar.gz"
+      sha256 "7687cbf5d903df0f5c8c29fd64120b732760f363b87b5c681ba8bf9cc8c3fba0"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/Cratis/cli/releases/download/v3.106.0/cratis-3.106.0-linux-arm64.tar.gz"
-      sha256 "8555520204036aff91ebc38d52041975251b53391943c85bb2d0a022dc9232a7"
+      url "https://github.com/Cratis/cli/releases/download/v3.107.0/cratis-3.107.0-linux-arm64.tar.gz"
+      sha256 "ec3108214e4b4f2ca001ead879f6a4cb696bcddbb6ceddccfd2317a0ceec86fd"
     end
     on_intel do
-      url "https://github.com/Cratis/cli/releases/download/v3.106.0/cratis-3.106.0-linux-x64.tar.gz"
-      sha256 "c6eb972a55c18b7791d3c6a9375741511fcc8f0b3cce123454633b85a9cefa85"
+      url "https://github.com/Cratis/cli/releases/download/v3.107.0/cratis-3.107.0-linux-x64.tar.gz"
+      sha256 "03092fc11378febb6789ff7792941b9858c118aefe6cdd72cc8a9b35e6ebc395"
     end
   end
 
