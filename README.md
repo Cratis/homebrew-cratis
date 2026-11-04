@@ -15,6 +15,15 @@ To upgrade later:
 brew upgrade cratis
 ```
 
+## Direct Agent Runner
+
+```shell
+brew install direct-runner
+brew services start direct-runner
+```
+
+Runs [Direct](https://www.cratis.io/direct/)'s agents on your own machine. Open <http://127.0.0.1:7190> to connect it to Direct. See the [getting started guide](https://www.cratis.io/direct/runner/getting-started/).
+
 ## What you get
 
 The `cratis` CLI is the terminal surface for [Chronicle](https://github.com/Cratis/Chronicle), the open-source (MIT) event-sourcing database and runtime from Cratis. Use it to inspect and diagnose Chronicle event stores — events, observers, projections, read models, and failed partitions — straight from your terminal.
