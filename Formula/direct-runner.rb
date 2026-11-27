@@ -1,26 +1,26 @@
 class DirectRunner < Formula
   desc "Runs Cratis Direct's agents on your own machine"
   homepage "https://github.com/Cratis/DirectPublic"
-  version "3.148.1"
+  version "3.148.2"
 
   on_macos do
     on_arm do
-      url "https://github.com/Cratis/DirectPublic/releases/download/v3.148.1/direct-runner-3.148.1-osx-arm64.tar.gz"
-      sha256 "f44a59d89e2d2b7cf2762a66952a340fe1c3c372e77bb602dc238fa9dcb6c94f"
+      url "https://github.com/Cratis/DirectPublic/releases/download/v3.148.2/direct-runner-3.148.2-osx-arm64.tar.gz"
+      sha256 "7faa85212c09d1e10281b7379df71a14efc45c23d43ed5e3053fb751c6db108e"
     end
     on_intel do
-      url "https://github.com/Cratis/DirectPublic/releases/download/v3.148.1/direct-runner-3.148.1-osx-x64.tar.gz"
-      sha256 "0477d350839597f5e2c8e49e65fbc18cb0a31e12406c969041a0a8c966f1fd46"
+      url "https://github.com/Cratis/DirectPublic/releases/download/v3.148.2/direct-runner-3.148.2-osx-x64.tar.gz"
+      sha256 "33d37cbfcdfcf23aa775f084571709a9fb698922b7d0cd2ab715d0123e5caac3"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/Cratis/DirectPublic/releases/download/v3.148.1/direct-runner-3.148.1-linux-arm64.tar.gz"
-      sha256 "42ca8b5deac7185590e1b11547a754d2be99e08f6b2eb4e0edb4bcf1c7fbb2f7"
+      url "https://github.com/Cratis/DirectPublic/releases/download/v3.148.2/direct-runner-3.148.2-linux-arm64.tar.gz"
+      sha256 "106508e415dcbc7977d2effe769d47eaa105cc930131c4c8bd716540da9c0403"
     end
     on_intel do
-      url "https://github.com/Cratis/DirectPublic/releases/download/v3.148.1/direct-runner-3.148.1-linux-x64.tar.gz"
-      sha256 "f486b6e726e9fef57d3c5c65534a51fe565d756c14e38b6091e6290183e23707"
+      url "https://github.com/Cratis/DirectPublic/releases/download/v3.148.2/direct-runner-3.148.2-linux-x64.tar.gz"
+      sha256 "d1961e94e48e0c655ac2fe6b38f284e3e745dada494801cf3db70357ba79de2b"
     end
   end
 
